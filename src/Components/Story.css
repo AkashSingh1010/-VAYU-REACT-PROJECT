@@ -1,0 +1,66 @@
+.Story{
+    background-color: #FFD662;
+    position: relative;
+      /* margin-top: 45px;
+      
+      text-align: center;
+      background: #FFD662; */
+      height: 150px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 90px 0;
+      
+  }
+  
+  .redirect{
+    display: flex;
+    justify-content: center;
+   
+    height: 150px;
+    font-size: 1.5em;
+    background-color: #FFD662;
+  
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+ 
+  
+}
+button{
+  margin:0 20px;
+  
+}
+
+.body-story{
+  display: grid;
+  grid-template-columns: repeat(3,400px);
+  justify-content: center;
+  align-items: center;
+
+}
+.Story1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.body-one {
+  display: flex;
+  flex-direction: column; /* Stack image and button vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.body-one img {
+  width: 80%; /* Make the image as wide as its parent container */
+}
+
+.body-one button {
+  width: 80%; /* Make the button as wide as its parent container */
+  margin-bottom: 25px; /* Add a little top margin to separate the image and button */
+}
+
+

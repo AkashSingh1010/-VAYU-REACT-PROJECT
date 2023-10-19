@@ -1,0 +1,38 @@
+.About{
+    background-color: #FFD662;
+    position: relative;
+      /* margin-top: 45px;
+      
+      text-align: center;
+      background: #FFD662; */
+      height: 150px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 90px 0;
+      
+  }
+  
+  .redirect{
+    display: flex;
+    justify-content: center;
+   
+    height: 150px;
+    font-size: 1.5em;
+    background-color: #FFD662;
+  
+   
+  }
+
+.body-about{
+  display: flex;
+  gap: 50px;
+  position: relative;
+  left: 20%;
+}
+
+.about-image{
+  height: 350px;
+  width: 350px;
+
+}

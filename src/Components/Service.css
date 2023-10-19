@@ -1,0 +1,57 @@
+.Service{
+  background-color: #FFD662;
+  position: relative;
+    /* margin-top: 45px;
+    
+    text-align: center;
+    background: #FFD662; */
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0;
+    
+}
+
+.redirect{
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  font-size: 1.5em;
+  background-color: #FFD662;
+}
+
+.body-service{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+
+.service-two{
+  display: flex;
+  margin-top: 100px;
+  
+  
+}
+.left{
+  width: 50%;
+  text-align: center;
+  margin-top: 60px;
+}
+.right{
+  display: flex;
+  width: 50%;
+}
+
+
+.serv-cont{
+  margin-top: 100px;
+  text-align: center;
+}
+.right-two{
+    margin-top: 20px;
+    display: flex;
+  }

@@ -1,0 +1,51 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00539c;
+    width:100%;
+    position: relative;
+    top:0%;
+    height: 110px;
+    flex-wrap: wrap;
+    
+  }
+    
+  .main-icon{
+    height: 92px;
+    width: 260px;
+    cursor:pointer;
+  }
+  
+  a{
+    color:white;
+    
+    text-decoration: none;
+  }
+  .nav-link{
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 150px;
+    margin-right: 50px;
+    
+  }
+
+.nav-link:hover {
+    color: #ffd662;
+   
+  }
+  
+  
+  a:hover {
+   color: #ffd662;
+}
+  .phoneNumber{
+    display: flex;
+    
+  }
+  .email-info{
+    margin-left: 50px;
+  }
+  .topbar{
+    margin-top: 20px;
+  }
+
