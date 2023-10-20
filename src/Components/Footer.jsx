@@ -22,8 +22,6 @@ function Footer() {
         <p>Our Story</p>
         <p>Our Services</p>
         <br/>
-        <br/>
-        <br/>
         <div className='footer-end'>
         <Link to={`/contact`} class="nav-link" aria-current="page" href="2">Contact US</Link>
         </div>

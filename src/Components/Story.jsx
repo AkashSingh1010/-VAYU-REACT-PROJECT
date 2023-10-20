@@ -1,8 +1,17 @@
 import React from 'react';
 import './Story.css';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
-function Story() {
+const Story =() => {
+  const navigate = useNavigate();
+  
+  const HandleClick = () => {
+    navigate('/story');
+  };
+  
+  
+
   return (
     <>
 
@@ -31,39 +40,39 @@ function Story() {
       <div className="body-story">
         <div className="body-one">
         <img src='assets\images\b1.jpg' alt=''></img>
-        <button class="btn btn-info" >BATCH-1 JAVA</button>
+        <button class="btn btn-info" onClick={() => HandleClick()} >BATCH-1 JAVA</button>
         </div>
         <div className="body-one">
         <img src='assets\images\b2.jpg' alt=''></img>
-        <button class="btn btn-info" >BATCH-2 DEVOPS</button>
+        <button class="btn btn-info" onClick={() => HandleClick()} >BATCH-2 DEVOPS</button>
         </div>
         <div className="body-one">
         <img src='assets\images\b3.jpg' alt=''></img>
-        <button class="btn btn-info" >BATCH-3 DEVOPS</button>
+        <button class="btn btn-info" onClick={() => HandleClick()} >BATCH-3 DEVOPS</button>
         </div>
         <div className="body-one">
         <img src='assets\images\b4.jpg' alt=''></img>
-        <button class="btn btn-info" >BATCH-4 JAVA</button>
+        <button class="btn btn-info" onClick={() => HandleClick()} >BATCH-4 JAVA</button>
         </div>
         <div className="body-one">
         <img src='assets\images\b5.jpg' alt=''></img>
-        <button class="btn btn-info" >BATCH-5 DEVOPS</button>
+        <button class="btn btn-info" onClick={() => HandleClick()} >BATCH-5 DEVOPS</button>
         </div>
         <div className="body-one">
         <img src='assets\images\b6.jpg' alt=''></img>
-        <button class="btn btn-info" >BATCH-6 REACTJS</button>
+        <button class="btn btn-info" onClick={() => HandleClick()} >BATCH-6 REACTJS</button>
         </div>
         <div className="body-one">
         <img src='assets\images\b7.jpg' alt=''></img>
-        <button class="btn btn-info" >BATCH-7 SAP</button>
+        <button class="btn btn-info" onClick={() => HandleClick()} >BATCH-7 SAP</button>
         </div>
         <div className="body-one">
         <img src='assets\images\b8.jpg' alt=''></img>
-        <button class="btn btn-info" >BATCH-8 DEVOPS</button>
+        <button class="btn btn-info" onClick={() => HandleClick()} >BATCH-8 DEVOPS</button>
         </div>
         <div className="body-one">
         <img src='assets\images\b9.jpg' alt=''></img>
-        <button class="btn btn-info" >BATCH-9 JAVA</button>
+        <button class="btn btn-info" onClick={() => HandleClick()} >BATCH-9 JAVA</button>
         </div>
        
 
