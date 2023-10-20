@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer className="footer">
@@ -21,13 +21,19 @@ function Footer() {
         <h2>USEFUL LINKS</h2>
         <p>Our Story</p>
         <p>Our Services</p>
-        <p>Contact Us</p>
+        <br/>
+        <br/>
+        <br/>
+        <div className='footer-end'>
+        <Link to={`/contact`} class="nav-link" aria-current="page" href="2">Contact US</Link>
+        </div>
       </div>
       <div className="column">
         <h2>STAY UPDATED</h2>
         <p>Watch here for more information on courses and training we conduct</p>
       </div>
     </footer>
+    
   );
 }
 
