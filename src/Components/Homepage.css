@@ -23,8 +23,11 @@
 .form-sub-part{
     display: flex;
     margin-top: 20px;
+    color: white;
 }
-
+.form-head{
+    color: #FFD662;;
+}
 .explore-part{
     width: 50%;
     text-align: center;

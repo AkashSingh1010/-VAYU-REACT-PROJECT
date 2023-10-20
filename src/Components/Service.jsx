@@ -16,8 +16,8 @@ function Service() {
       </div>
 
       <div className='serv-cont'>
-        <p>Our Services</p>
-        <h2>IT Training</h2>
+        <h4>Our Services</h4>
+        <h1 className='serv-h2'>IT Training</h1>
 
       </div>
     <div className="body-service">

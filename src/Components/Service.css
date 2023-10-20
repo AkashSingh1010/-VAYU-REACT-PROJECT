@@ -33,7 +33,7 @@
 .service-two{
   display: flex;
   margin-top: 100px;
-  
+  margin-bottom: 100px;
   
 }
 .left{
@@ -50,8 +50,13 @@
 .serv-cont{
   margin-top: 100px;
   text-align: center;
+ 
 }
 .right-two{
     margin-top: 20px;
     display: flex;
+  }
+
+  .serv-h2{
+    color: blue
   }

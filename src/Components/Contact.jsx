@@ -43,9 +43,9 @@ function Contact() {
         <summary className="summary" onClick={() => toggleDetails('service')}>
           <span className="icon">
             {isExpanded.service ? (
-              <i className="fa-solid fa-angle-down"></i>
+         <i class="fa-solid fa-up-down"></i>
             ) : (
-              <i className="fa-solid fa-angle-up"></i>
+              <i class="fa-solid fa-up-down"></i>
             )}
           </span>
           What are the services we provide?
@@ -57,9 +57,9 @@ function Contact() {
         <summary className="summary" onClick={() => toggleDetails('courseCharge')}>
           <span className="icon">
             {isExpanded.courseCharge ? (
-              <i className="fa-solid fa-angle-down"></i>
+             <i class="fa-solid fa-up-down"></i>
             ) : (
-              <i className="fa-solid fa-angle-up"></i>
+              <i class="fa-solid fa-up-down"></i>
             )}
           </span>
           How much do you Charge For a Course?
@@ -71,9 +71,9 @@ function Contact() {
         <summary className="summary" onClick={() => toggleDetails('placementAssistance')}>
           <span className="icon">
             {isExpanded.placementAssistance ? (
-              <i className="fa-solid fa-angle-down"></i>
+              <i class="fa-solid fa-up-down"></i>
             ) : (
-              <i className="fa-solid fa-angle-up"></i>
+              <i class="fa-solid fa-up-down"></i>
             )}
           </span>
           Do You Support Placement Assistance?
@@ -85,9 +85,9 @@ function Contact() {
         <summary className="summary" onClick={() => toggleDetails('fresherPlacement')}>
           <span className="icon">
             {isExpanded.fresherPlacement ? (
-              <i className="fa-solid fa-angle-down"></i>
+             <i class="fa-solid fa-up-down"></i>
             ) : (
-              <i className="fa-solid fa-angle-up"></i>
+              <i class="fa-solid fa-up-down"></i>
             )}
           </span>
           I am a Fresher Will I get Placed?
@@ -99,9 +99,9 @@ function Contact() {
         <summary className="summary" onClick={() => toggleDetails('courseCancellation')}>
           <span className="icon">
             {isExpanded.courseCancellation ? (
-              <i className="fa-solid fa-angle-down"></i>
+              <i class="fa-solid fa-up-down"></i>
             ) : (
-              <i className="fa-solid fa-angle-up"></i>
+              <i class="fa-solid fa-up-down"></i>
             )}
           </span>
           What if I don't like the course in the middle?

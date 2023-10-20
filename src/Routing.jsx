@@ -19,7 +19,7 @@ function Routing() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<><Loginpage /></>}></Route>
+        <Route path="/" element={<><Loginpage/></>}></Route>
         <Route path="/home" element={<><Homepage /><Footer /></>}></Route>
         <Route path="/home/service" element={<><Header /><Service /><Footer /></>}></Route>
         <Route path="/about" element={<><Header /><About /><Footer /></>}></Route>

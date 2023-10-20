@@ -61,14 +61,14 @@ const Homepage = () => {
 
         <div className='form-sub-part'>
           <div className='explore-part'>
-            <h2><span>Training</span></h2>
+            <h2 className='form-head'><span>Training</span></h2>
             <p>We provide Training and Placement</p>
             <a href=' ' className='explore-btn'>Explore Now</a>
 
           </div>
 
           <div className='form-container'>
-            <h3> Get Callback From Us</h3>
+            <h3 className='form-head'> Get Callback From Us</h3>
             <form action=' '>
               <div className='form-control-name'>
                 <input required="required" name='Name' type='text' placeholder='Your Name'></input>
@@ -347,9 +347,9 @@ const Homepage = () => {
             <summary className="summary" onClick={() => toggleDetails('service')}>
               <span className="icon">
                 {isExpanded.service ? (
-                  <i className="fa-solid fa-angle-down"></i>
+                  <i class="fa-solid fa-up-down"></i>
                 ) : (
-                  <i className="fa-solid fa-angle-up"></i>
+                  <i class="fa-solid fa-up-down"></i>
                 )}
               </span>
               What are the services we provide?
@@ -361,9 +361,9 @@ const Homepage = () => {
             <summary className="summary" onClick={() => toggleDetails('courseCharge')}>
               <span className="icon">
                 {isExpanded.courseCharge ? (
-                  <i className="fa-solid fa-angle-down"></i>
+                 <i class="fa-solid fa-up-down"></i>
                 ) : (
-                  <i className="fa-solid fa-angle-up"></i>
+                  <i class="fa-solid fa-up-down"></i>
                 )}
               </span>
               How much do you Charge For a Course?
@@ -375,9 +375,9 @@ const Homepage = () => {
             <summary className="summary" onClick={() => toggleDetails('placementAssistance')}>
               <span className="icon">
                 {isExpanded.placementAssistance ? (
-                  <i className="fa-solid fa-angle-down"></i>
+                  <i class="fa-solid fa-up-down"></i>
                 ) : (
-                  <i className="fa-solid fa-angle-up"></i>
+                  <i class="fa-solid fa-up-down"></i>
                 )}
               </span>
               Do You Support Placement Assistance?
@@ -389,9 +389,9 @@ const Homepage = () => {
             <summary className="summary" onClick={() => toggleDetails('fresherPlacement')}>
               <span className="icon">
                 {isExpanded.fresherPlacement ? (
-                  <i className="fa-solid fa-angle-down"></i>
+                  <i class="fa-solid fa-up-down"></i>
                 ) : (
-                  <i className="fa-solid fa-angle-up"></i>
+                  <i class="fa-solid fa-up-down"></i>
                 )}
               </span>
               I am a Fresher Will I get Placed?
@@ -403,9 +403,9 @@ const Homepage = () => {
             <summary className="summary" onClick={() => toggleDetails('courseCancellation')}>
               <span className="icon">
                 {isExpanded.courseCancellation ? (
-                  <i className="fa-solid fa-angle-down"></i>
+                 <i class="fa-solid fa-up-down"></i>
                 ) : (
-                  <i className="fa-solid fa-angle-up"></i>
+                  <i class="fa-solid fa-up-down"></i>
                 )}
               </span>
               What if I don't like the course in the middle?
